@@ -1,1 +1,1 @@
-# NewTriangleQuiz
+# TriangleQuiz
