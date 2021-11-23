@@ -1,9 +1,152 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Work+Sans:wght@300&display=swap');
 
-:root{
-    --primary-color: #cac0c0;
-    --focus-color: rgb(241, 248, 227);
+:root {
+    --primary-color:#3f413d;
+    --gray: #E5E7EB; 
+}
+
+body{
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin:0px;
+}
+
+hr {
+
+    margin: 2rem 0rem;
+
+}
+/* .Container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Container-Center {
+    max-width: 600px;
+    margin: auto;
+} */
+
+.Link {
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.Primary-Link
+{
+   background-color: var(--primary-color);
+   border-radius: 1rem;
+   color: white 
+
+}
+
+.Secondary-Link {
+    
+   border-radius: 1rem;
+   border: 1px solid var(--primary-color);
+   color:black
+}
+
+.No-BulletList{
+    list-style: none;
+}
+
+.Inline-ListItem{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.Brand-Name{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 0.5rem 0.5rem; 
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.Brand-Name .Hlink{
+    color:white;
+}
+.Brand-Name .HLinkName{
+    text-align: right;
+}
+
+.Brand-Name .Style{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Brand-Name .Active-Hlink {
+    font-weight: bold;
+}
+
+
+.Hero{
+    padding: 2rem;
+    
+}
+
+.Hero .Hero-Img{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.Hero .Hero-Heading{
+    font-size: xx-large;
+    font-weight:bolder; 
+    text-align: center;
+    color:var(--primary-color);
+    padding-top:1rem;   
+}
+
+.Sect1 h1 {
+    text-align: center;
+}
+
+.Sect2 {
+    background-color: var(--gray);
+
+}
+
+.Sect1 {
+    padding:2rem;
+     
+}
+
+.Footer{
+    text-align: center;
+}
+
+.Footer .Link{
+color: white ;
+}
+
+.Footer .Footer-Header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.Footer ul {
+    padding-inline-start: 0px;
+}
+
+
+
+
+
+
+
+
+.container-form {
+    margin: auto;
+    display: flex;
+    padding-left: 4rem;
 }
 
 .container {
@@ -16,14 +159,16 @@
 }
 
 .centreContainer {
-    height: 50px;
+    height: 110px;
     width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2%;
+    
 }
+/* padding: 2%; */
+
 
 h1 {
     padding: 1%;
@@ -34,56 +179,10 @@ a {
     color: black;
 }
 
-.box {
-    border: 1px solid black;
-    text-align: center;
-    padding: 70px 0;
-    width: 100px;
-    height: 30px;
-    background-color: var(--primary-color);
-    box-shadow: 2px 2px 4px black;
-    margin: 4px;
-}
-
-.box:hover{
-    border: 1px solid var(--focus-color);
-    box-shadow: 2px 2px 4px var(--focus-color);
-}
-
-/* .main1 {
-    margin: auto;
-    text-align: center;
-}
-
-.output {
-    height: 20px;
-    width: 300px;
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
-    background-color: var(--primary-color);
-    color:  balck;
-} */
-
-/* .message {
-    margin: 2%;
-}
-
-.hideclass {
-    display: none;
-}
-
-.btn {
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
-    background-color: transparent;
-    box-shadow: 1px 1px 2px var(--focus-color);
-    padding: 0.3rem;
-}
-
-input {
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
-    background-color: transparent;
-    box-shadow: 1px 1px 2px var(--focus-color);
-    padding: 0.3rem;   
-} */
+.box{
+    text-align:center;
+    border: 2px solid black;
+    margin:8px;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 25px;

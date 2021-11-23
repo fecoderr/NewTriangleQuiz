@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Triangle ?</title>
+    <title>Hypotenuse</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -16,10 +16,10 @@
                 <a class="Hlink " href="/">Home</a>
             </li>
             <li class="Inline-ListItem">
-                <a class="Hlink Active-Hlink" href="/istriangle.html">Is Triangle? </a>
+                <a class="Hlink" href="/istriangle.html">Is Triangle? </a>
             </li>
             <li class="Inline-ListItem">
-                <a class="Hlink" href="/hypotenuse.html">Hypotenuse </a>
+                <a class="Hlink Active-Hlink" href="/hypotenuse.html">Hypotenuse </a>
             </li>
             </li>
             <li class="Inline-ListItem">
@@ -31,28 +31,24 @@
         </ul>
     </nav>
 
-
     <section class="container">
-    <h1>Is Triangle?</h1>
-    <h5> Enter the angles in degrees to check whether it will make a triangle or not</h5>
+    <h1>Calculate Hypotenuse</h1>
+    <h5> Hypotenuse formula = √((base)<sup>2</sup> + (height)<sup>2</sup>) or c = √(a<sup>2</sup> + b<sup>2</sup>). </h5>
     <section class="centreContainer">
+    <label>a = </label>
+    <input type = "number" class="side-input"/>
+    <label>b = </label>
+    <input type = "number" class="side-input"/>
+    </section>
+    <button id="hypotenuse-btn">Calculate Hypotenuse </button>
+    </section>
+    <br>
+       
+    <div id="output" class="container"></div>
+    
 
-    <label for="angle1">angle1:</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle2">angle2:</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle3">angle3: </label>
-    <input type="number" class="angle-input"/>
-    <section class="centreContainer">
-    <button id="is-triagnle-btn"> Is Triangle?</button>
-  
-    </section>
-    <div id="output"></div>
-    </section>
-    </section>
+
+    <script src="hypotenuse.js"></script>
     
-    
-  
-    <script src="istriangle.js"></script>
 </body>
 </html>

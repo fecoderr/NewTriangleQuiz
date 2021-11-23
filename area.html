@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Triangle ?</title>
+    <title>Hypotenuse</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -16,14 +16,14 @@
                 <a class="Hlink " href="/">Home</a>
             </li>
             <li class="Inline-ListItem">
-                <a class="Hlink Active-Hlink" href="/istriangle.html">Is Triangle? </a>
+                <a class="Hlink" href="/istriangle.html">Is Triangle? </a>
             </li>
             <li class="Inline-ListItem">
                 <a class="Hlink" href="/hypotenuse.html">Hypotenuse </a>
             </li>
             </li>
             <li class="Inline-ListItem">
-            <a class="Hlink" href="/area.html">Area </a>
+            <a class="Hlink Active-Hlink" href="/area.html">Area </a>
             </li>
             <li class="Inline-ListItem">
                 <a class="Hlink" href="/quiz.html">Quiz </a>
@@ -31,28 +31,28 @@
         </ul>
     </nav>
 
-
+  
     <section class="container">
-    <h1>Is Triangle?</h1>
-    <h5> Enter the angles in degrees to check whether it will make a triangle or not</h5>
-    <section class="centreContainer">
+    <h1>Calculate Area </h1>
+    <h5> Area of a triangle is equal to half the product of its base and height, i.e., A = 1/2 × b × h</h5>
+    <section class="centreContainer ">
+    <label>base: </label>
+    <input type = "number" class="side-input"/>
+  
+    <label>height: </label>
+    <input type = "number" class="side-input"/>
+    </section>
+    <button id="area-btn">Calculate Area </button>
+    <br>
+    
+    </section>
+    <section class="container"> <div id="output"></div> </section>
 
-    <label for="angle1">angle1:</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle2">angle2:</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle3">angle3: </label>
-    <input type="number" class="angle-input"/>
-    <section class="centreContainer">
-    <button id="is-triagnle-btn"> Is Triangle?</button>
-  
-    </section>
-    <div id="output"></div>
-    </section>
-    </section>
     
+
+
+
+    <script src="area.js"></script>
     
-  
-    <script src="istriangle.js"></script>
 </body>
 </html>
